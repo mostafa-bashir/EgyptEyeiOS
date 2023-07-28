@@ -14,7 +14,7 @@ struct TabBarView: View {
         UITabBar.appearance().backgroundColor = UIColor.white.withAlphaComponent(0.5)
     }
     var body: some View {
- 
+  
         TabView(selection: $selectedTab) {
             NavigationView {
                 SearchView()
