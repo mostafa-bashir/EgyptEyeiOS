@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		961EB1DD2A5579B0001B835B /* ResultFromImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB1DC2A5579B0001B835B /* ResultFromImageView.swift */; };
+		9624E13F2A52D85200863F0E /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9624E13E2A52D85200863F0E /* ResultView.swift */; };
+		9624E1412A52DA8200863F0E /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9624E1402A52DA8200863F0E /* ResultViewModel.swift */; };
+		9624E1432A52E0DF00863F0E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9624E1422A52E0DF00863F0E /* ProfileView.swift */; };
+		9624E1452A52E93900863F0E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9624E1442A52E93900863F0E /* ProfileViewModel.swift */; };
+		9624E1472A52E9DE00863F0E /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9624E1462A52E9DE00863F0E /* UserDetailsView.swift */; };
+		962E71442A49908F00753D3F /* EgyptEyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E71432A49908F00753D3F /* EgyptEyeApp.swift */; };
+		962E71482A49909000753D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962E71472A49909000753D3F /* Assets.xcassets */; };
+		962E714B2A49909000753D3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962E714A2A49909000753D3F /* Preview Assets.xcassets */; };
+		962E71532A49915800753D3F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 962E71522A49915800753D3F /* Alamofire */; };
+		962E71562A4991A000753D3F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E71552A4991A000753D3F /* LoginView.swift */; };
+		962E715B2A4992AE00753D3F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E715A2A4992AE00753D3F /* LoginViewModel.swift */; };
+		962E715F2A49933800753D3F /* AuthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E715E2A49933800753D3F /* AuthModels.swift */; };
+		962E71612A49934800753D3F /* AuthNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E71602A49934800753D3F /* AuthNetworking.swift */; };
+		962E71632A49935800753D3F /* AuthAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E71622A49935800753D3F /* AuthAPIs.swift */; };
+		962E71652A49938C00753D3F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E71642A49938C00753D3F /* Base.swift */; };
+		962E717C2A49946600753D3F /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E71782A49946600753D3F /* TargetType.swift */; };
+		962E717D2A49946600753D3F /* CustomInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E71792A49946600753D3F /* CustomInterceptor.swift */; };
+		962E717E2A49946600753D3F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E717A2A49946600753D3F /* Constants.swift */; };
+		962E717F2A49946600753D3F /* NetworkListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E717B2A49946600753D3F /* NetworkListner.swift */; };
+		96627EE22A55981000389E38 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96627EE12A55981000389E38 /* HistoryViewModel.swift */; };
+		96627EE42A5599DA00389E38 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96627EE32A5599DA00389E38 /* HistoryView.swift */; };
+		96627EE62A56C1C500389E38 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96627EE52A56C1C500389E38 /* FavoriteView.swift */; };
+		96627EE82A56C1D600389E38 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96627EE72A56C1D600389E38 /* FavoriteViewModel.swift */; };
+		96627EEA2A56CDA300389E38 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96627EE92A56CDA300389E38 /* ToastView.swift */; };
+		968FB9D52A4A2BCF00778CB5 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968FB9D42A4A2BCF00778CB5 /* TabBarView.swift */; };
+		968FB9D72A4A323600778CB5 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968FB9D62A4A323600778CB5 /* SearchView.swift */; };
+		968FB9D92A4A39A300778CB5 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968FB9D82A4A39A300778CB5 /* SearchViewModel.swift */; };
+		9699B8512A49A9C000CFEBEF /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699B8502A49A9C000CFEBEF /* SignupView.swift */; };
+		9699B8532A49AA2900CFEBEF /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699B8522A49AA2900CFEBEF /* SignupViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		961EB1DC2A5579B0001B835B /* ResultFromImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultFromImageView.swift; sourceTree = "<group>"; };
+		9624E13E2A52D85200863F0E /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		9624E1402A52DA8200863F0E /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		9624E1422A52E0DF00863F0E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9624E1442A52E93900863F0E /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		9624E1462A52E9DE00863F0E /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		962E71402A49908F00753D3F /* EgyptEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EgyptEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		962E71432A49908F00753D3F /* EgyptEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptEyeApp.swift; sourceTree = "<group>"; };
+		962E71472A49909000753D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		962E714A2A49909000753D3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		962E71552A4991A000753D3F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		962E715A2A4992AE00753D3F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		962E715E2A49933800753D3F /* AuthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModels.swift; sourceTree = "<group>"; };
+		962E71602A49934800753D3F /* AuthNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNetworking.swift; sourceTree = "<group>"; };
+		962E71622A49935800753D3F /* AuthAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPIs.swift; sourceTree = "<group>"; };
+		962E71642A49938C00753D3F /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		962E71782A49946600753D3F /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		962E71792A49946600753D3F /* CustomInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInterceptor.swift; sourceTree = "<group>"; };
+		962E717A2A49946600753D3F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		962E717B2A49946600753D3F /* NetworkListner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkListner.swift; sourceTree = "<group>"; };
+		96627EE12A55981000389E38 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		96627EE32A5599DA00389E38 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		96627EE52A56C1C500389E38 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		96627EE72A56C1D600389E38 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		96627EE92A56CDA300389E38 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		968FB9D42A4A2BCF00778CB5 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		968FB9D62A4A323600778CB5 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		968FB9D82A4A39A300778CB5 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		9699B8502A49A9C000CFEBEF /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		9699B8522A49AA2900CFEBEF /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		969CDE932A57FAA000EA079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962E713D2A49908F00753D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962E71532A49915800753D3F /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		962E71372A49908F00753D3F = {
+			isa = PBXGroup;
+			children = (
+				962E71422A49908F00753D3F /* EgyptEye */,
+				962E71412A49908F00753D3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		962E71412A49908F00753D3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				962E71402A49908F00753D3F /* EgyptEye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		962E71422A49908F00753D3F /* EgyptEye */ = {
+			isa = PBXGroup;
+			children = (
+				969CDE932A57FAA000EA079F /* Info.plist */,
+				962E71572A49928F00753D3F /* ViewModels */,
+				962E71542A49919500753D3F /* Views */,
+				968FB9D42A4A2BCF00778CB5 /* TabBarView.swift */,
+				962E71432A49908F00753D3F /* EgyptEyeApp.swift */,
+				962E71472A49909000753D3F /* Assets.xcassets */,
+				962E71492A49909000753D3F /* Preview Content */,
+				962E715C2A4992FC00753D3F /* Network */,
+			);
+			path = EgyptEye;
+			sourceTree = "<group>";
+		};
+		962E71492A49909000753D3F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				962E714A2A49909000753D3F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		962E71542A49919500753D3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				962E71552A4991A000753D3F /* LoginView.swift */,
+				9699B8502A49A9C000CFEBEF /* SignupView.swift */,
+				968FB9D62A4A323600778CB5 /* SearchView.swift */,
+				9624E13E2A52D85200863F0E /* ResultView.swift */,
+				9624E1422A52E0DF00863F0E /* ProfileView.swift */,
+				9624E1462A52E9DE00863F0E /* UserDetailsView.swift */,
+				961EB1DC2A5579B0001B835B /* ResultFromImageView.swift */,
+				96627EE32A5599DA00389E38 /* HistoryView.swift */,
+				96627EE52A56C1C500389E38 /* FavoriteView.swift */,
+				96627EE92A56CDA300389E38 /* ToastView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		962E71572A49928F00753D3F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				962E715A2A4992AE00753D3F /* LoginViewModel.swift */,
+				9699B8522A49AA2900CFEBEF /* SignupViewModel.swift */,
+				968FB9D82A4A39A300778CB5 /* SearchViewModel.swift */,
+				9624E1402A52DA8200863F0E /* ResultViewModel.swift */,
+				9624E1442A52E93900863F0E /* ProfileViewModel.swift */,
+				96627EE12A55981000389E38 /* HistoryViewModel.swift */,
+				96627EE72A56C1D600389E38 /* FavoriteViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		962E715C2A4992FC00753D3F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				962E715D2A49932D00753D3F /* Auth */,
+				962E71642A49938C00753D3F /* Base.swift */,
+				962E717A2A49946600753D3F /* Constants.swift */,
+				962E71792A49946600753D3F /* CustomInterceptor.swift */,
+				962E717B2A49946600753D3F /* NetworkListner.swift */,
+				962E71782A49946600753D3F /* TargetType.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		962E715D2A49932D00753D3F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				962E715E2A49933800753D3F /* AuthModels.swift */,
+				962E71602A49934800753D3F /* AuthNetworking.swift */,
+				962E71622A49935800753D3F /* AuthAPIs.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		962E713F2A49908F00753D3F /* EgyptEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962E714E2A49909000753D3F /* Build configuration list for PBXNativeTarget "EgyptEye" */;
+			buildPhases = (
+				962E713C2A49908F00753D3F /* Sources */,
+				962E713D2A49908F00753D3F /* Frameworks */,
+				962E713E2A49908F00753D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EgyptEye;
+			packageProductDependencies = (
+				962E71522A49915800753D3F /* Alamofire */,
+			);
+			productName = EgyptEye;
+			productReference = 962E71402A49908F00753D3F /* EgyptEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962E71382A49908F00753D3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					962E713F2A49908F00753D3F = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 962E713B2A49908F00753D3F /* Build configuration list for PBXProject "EgyptEye" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 962E71372A49908F00753D3F;
+			packageReferences = (
+				962E71512A49915800753D3F /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 962E71412A49908F00753D3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962E713F2A49908F00753D3F /* EgyptEye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		962E713E2A49908F00753D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962E714B2A49909000753D3F /* Preview Assets.xcassets in Resources */,
+				962E71482A49909000753D3F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962E713C2A49908F00753D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9699B8512A49A9C000CFEBEF /* SignupView.swift in Sources */,
+				96627EE42A5599DA00389E38 /* HistoryView.swift in Sources */,
+				9624E1412A52DA8200863F0E /* ResultViewModel.swift in Sources */,
+				96627EE62A56C1C500389E38 /* FavoriteView.swift in Sources */,
+				962E717F2A49946600753D3F /* NetworkListner.swift in Sources */,
+				968FB9D92A4A39A300778CB5 /* SearchViewModel.swift in Sources */,
+				96627EE22A55981000389E38 /* HistoryViewModel.swift in Sources */,
+				968FB9D52A4A2BCF00778CB5 /* TabBarView.swift in Sources */,
+				962E71562A4991A000753D3F /* LoginView.swift in Sources */,
+				962E715F2A49933800753D3F /* AuthModels.swift in Sources */,
+				9624E1472A52E9DE00863F0E /* UserDetailsView.swift in Sources */,
+				962E71632A49935800753D3F /* AuthAPIs.swift in Sources */,
+				96627EE82A56C1D600389E38 /* FavoriteViewModel.swift in Sources */,
+				962E71442A49908F00753D3F /* EgyptEyeApp.swift in Sources */,
+				962E717C2A49946600753D3F /* TargetType.swift in Sources */,
+				9699B8532A49AA2900CFEBEF /* SignupViewModel.swift in Sources */,
+				96627EEA2A56CDA300389E38 /* ToastView.swift in Sources */,
+				962E717E2A49946600753D3F /* Constants.swift in Sources */,
+				968FB9D72A4A323600778CB5 /* SearchView.swift in Sources */,
+				962E717D2A49946600753D3F /* CustomInterceptor.swift in Sources */,
+				9624E1452A52E93900863F0E /* ProfileViewModel.swift in Sources */,
+				9624E13F2A52D85200863F0E /* ResultView.swift in Sources */,
+				962E71612A49934800753D3F /* AuthNetworking.swift in Sources */,
+				9624E1432A52E0DF00863F0E /* ProfileView.swift in Sources */,
+				961EB1DD2A5579B0001B835B /* ResultFromImageView.swift in Sources */,
+				962E71652A49938C00753D3F /* Base.swift in Sources */,
+				962E715B2A4992AE00753D3F /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		962E714C2A49909000753D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		962E714D2A49909000753D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		962E714F2A49909000753D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EgyptEye/Preview Content\"";
+				DEVELOPMENT_TEAM = NHK99L952J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to take photos and videos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifr.EgyptEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		962E71502A49909000753D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EgyptEye/Preview Content\"";
+				DEVELOPMENT_TEAM = NHK99L952J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to take photos and videos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifr.EgyptEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962E713B2A49908F00753D3F /* Build configuration list for PBXProject "EgyptEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962E714C2A49909000753D3F /* Debug */,
+				962E714D2A49909000753D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962E714E2A49909000753D3F /* Build configuration list for PBXNativeTarget "EgyptEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962E714F2A49909000753D3F /* Debug */,
+				962E71502A49909000753D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		962E71512A49915800753D3F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		962E71522A49915800753D3F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 962E71512A49915800753D3F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 962E71382A49908F00753D3F /* Project object */;
+}
